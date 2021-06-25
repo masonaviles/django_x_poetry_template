@@ -3,7 +3,7 @@
 ## 🚀 Features
 
 - Django 3.1 & Python 3.8
-- Install via [Pip](https://pypi.org/project/pip/), [Pipenv](https://pypi.org/project/pipenv/), or [Docker](https://www.docker.com/)
+- Install via [Poetry](https://python-poetry.org/) or [Docker](https://www.docker.com/)
 - User log in/out, sign up, password reset via [django-allauth](https://github.com/pennersr/django-allauth)
 - Static files configured with [Whitenoise](http://whitenoise.evans.io/en/stable/index.html)
 - Styling with [Bootstrap v4](https://github.com/twbs/bootstrap)
