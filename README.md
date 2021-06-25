@@ -15,8 +15,7 @@
 
 ## Table of Contents
 * **[Installation](#installation)**
-  * [Pip](#pip)
-  * [Pipenv](#pipenv)
+  * [Poetry](#poetry)
   * [Docker](#docker)
 * [Setup](#setup)
 * [Contributing](#contributing)
@@ -29,31 +28,15 @@
 DjangoX can be installed via Pip, Pipenv, or Docker depending upon your setup. To start, clone the repo to your local computer and change into the proper directory.
 
 ```
-$ git clone https://github.com/wsvincent/djangox.git
-$ cd djangox
+$ git clone url
+$ cd django_x_poetry_template
 ```
 
-### Pip
+### Poetry
 
 ```
-$ python3 -m venv djangox
-$ source djangox/bin/activate
-(djangox) $ pip install -r requirements.txt
-(djangox) $ python manage.py migrate
-(djangox) $ python manage.py createsuperuser
-(djangox) $ python manage.py runserver
-# Load the site at http://127.0.0.1:8000
-```
-
-### Pipenv
-
-```
-$ pipenv install
-$ pipenv shell
-(djangox) $ python manage.py migrate
-(djangox) $ python manage.py createsuperuser
-(djangox) $ python manage.py runserver
-# Load the site at http://127.0.0.1:8000
+$ poetry install
+$ poetry shell
 ```
 
 ### Docker
@@ -92,14 +75,6 @@ INTERNAL_IPS = [ip[:-1] + "1" for ip in ips]
 ```
 
 ----
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome! See [CONTRIBUTING.md](https://github.com/wsvincent/djangox/blob/master/CONTRIBUTING.md).
-
-## ⭐️ Support
-
-Give a ⭐️  if this project helped you!
 
 ## License
 
